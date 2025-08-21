@@ -1,15 +1,15 @@
 # real-debrid-download-helper
 
-A simple tool with a CLI to simplify the process of downloading torrents through Real-Debrid.
+A simple tool with a CLI to simplify the process of downloading torrents through Real-Debrid.com. It allows you to communicate with the Real-Debrid API to add magnet links to your account, and obtain/unrestrict their download links.
 
 ## Features
 
 - Simple CLI
 - Add magnet links to Real-Debrid
-- Wait until torrent is cached and obtain unrestricted links
+- Wait until torrent is cached and obtain unrestricted links, dynamically scaling polling rate based on torrent size
 - Optionally display the unrestricted links
 - Optionally dump the links into a .txt file in folder of choice
-- Optionally download files using `aria2c`
+- Optionally start download of files using `aria2c`
 
 ## Build
 
